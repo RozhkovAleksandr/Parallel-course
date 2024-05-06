@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="concurrentStack.ConcurrentStackStressTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-05-06T17:50:13" hostname="LAPTOP-5VDVR55T" time="70.453">
-  <properties/>
-  <testcase name="modelTest()" classname="concurrentStack.ConcurrentStackStressTest" time="42.987"/>
-  <testcase name="stressTest()" classname="concurrentStack.ConcurrentStackStressTest" time="27.465"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
