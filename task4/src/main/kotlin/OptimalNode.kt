@@ -1,10 +1,17 @@
+package org.example.trees
 
-import kotlinx.coroutines.sync.Mutex
+import java.util.concurrent.locks.ReentrantLock
 
-data class OptimalNode<K : Comparable<K>, V>(
-    var key: K, var value: V)
-{
-    var left: OptimalNode<K, V>? = null
-    var right: OptimalNode<K, V>? = null
+class TonkayaNode<K : Comparable<K>, V>(var key: K, var value: V) {
+    var left: TonkayaNode<K, V>? = null
+    var right: TonkayaNode<K, V>? = null
+    val lock = ReentrantLock()
+
+    fun lock() {
+        lock.lock()
+    }
+
+    fun unlock() {
+        lock.unlock()
+    }
 }
-

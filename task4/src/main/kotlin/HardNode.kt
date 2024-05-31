@@ -9,4 +9,3 @@ data class HardNode<K : Comparable<K>, V>(
     var left: HardNode<K, V>? = null
     var right: HardNode<K, V>? = null
 }
-
